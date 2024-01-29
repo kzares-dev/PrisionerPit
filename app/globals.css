@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@layer base {
+
+  .flex-center {
+    @apply flex items-center justify-center
+  }
+
+  .flex-between {
+    @apply flex flex-center justify-between
+  }
+
+  .container {
+    @apply max-w-[1200px] mx-auto
+  }
+
+  .description-card {
+    @apply border text-[20px] shadow-sm px-2 py-4 leading-7 text-gray-500
+  }
+
+  .big-border {
+    @apply rounded-lg border border-b-2 border-r-2 border-gray-700 px-2 py-1 md:block dark:border-white
+  }
+
+}
+
+
+/* 
+* Custom shit 
+* Idk why should I put this here
+* extra space wow
+*/
+
+.title {
+  font-family: var(--font-monoffet);
+}
