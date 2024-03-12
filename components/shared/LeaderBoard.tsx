@@ -6,7 +6,7 @@ const prisioner = [
 
 function LeaderBoard() {
   return (
-    <div className='w-full max-w-[400px] h-auto  big-border flex flex-col gap-5' >
+    <div className='w-full max-w-[400px]  h-auto  big-border flex flex-col gap-5 pb-4' >
 
       <h1 className='py-3 font-semibold text-[30px] font-mono border-b pl-4' > LeaderBoard </h1>
 

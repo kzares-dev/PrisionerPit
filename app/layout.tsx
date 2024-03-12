@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={monoffet.className + "flex-1 min-h-[100vh] bg-gray-50"}>{children}</body>
+      <body className={monoffet.className + "flex-1 min-h-[100vh] bg-gray-50 pb-5"}>{children}</body>
     </html>
   )
 }
